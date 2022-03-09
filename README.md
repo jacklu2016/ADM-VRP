@@ -1,6 +1,6 @@
 # Comparison of Attention Mechanisms in Machine Learning Models for Vehicle Routing Problems
 
-### This repository contains implementation of Comparison of Attention Mechanisms in Machine Learning Models for Vehicle Routing Problems (TensorFlow2). 
+### This repository contains the implementation of our project titled 'Comparison of Attention Mechanisms in Machine Learning Models for Vehicle Routing Problems' (TensorFlow2). 
 
 ### <a href="https://github.com/mvkrishna2001/">Vamsi Krishna Munjuluri</a>, <a href="https://github.com/alexeypustynnikov">Sanath Kumar Parimi</a>
 
