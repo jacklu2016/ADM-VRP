@@ -26,4 +26,4 @@ This work was done as a final project.
   1) Open  **train_model.ipynb** and choose training parameters and choose the required number of heads by editing the file name at 'from attention_dynamic_model' .
   2) All outputs would be saved in current directory.
 
-Majority of this code has been fetched from publicly available <a href="https://github.com/d-eremeev/ADM-VRP/"> Code </a> 
+Majority of this code has been fetched from a publicly available repository of <a href="https://github.com/d-eremeev/ADM-VRP/"> The Dynamic Attention Model </a> 
