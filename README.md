@@ -4,7 +4,7 @@
 
 ### <a href="https://github.com/mvkrishna2001/">Vamsi Krishna Munjuluri</a>, <a href="https://github.com/SanathKumar123/">Sanath Kumar Parimi</a>
 
-This work was done as a final year project under the guidance of Dr. Georg Gutjar.
+This work was done as a final year project under the guidance of Dr. Georg Gutjahr".
  
 <hr style="width:50%;text-align:left;margin-left:0">
 
