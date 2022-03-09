@@ -4,11 +4,11 @@
 
 ### <a href="https://github.com/mvkrishna2001/">Vamsi Krishna Munjuluri</a>, <a href="https://github.com/alexeypustynnikov">Sanath Kumar Parimi</a>
 
-This work was done as a final project.
+This work was done as a final year project under the guidance of Dr. Georg Gutjar.
  
 <hr style="width:50%;text-align:left;margin-left:0">
 
-
+# File Description
 
  0) **AM-D for VRP Report.ipynb** - demo report notebook
  1) **enviroment.py** - enviroment for VRP RL Agent
