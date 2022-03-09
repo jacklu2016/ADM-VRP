@@ -2,7 +2,7 @@
 
 ### This repository contains the implementation of our project titled 'Comparison of Attention Mechanisms in Machine Learning Models for Vehicle Routing Problems' (TensorFlow2). 
 
-### <a href="https://github.com/mvkrishna2001/">Vamsi Krishna Munjuluri</a>, <a href="https://github.com/alexeypustynnikov">Sanath Kumar Parimi</a>
+### <a href="https://github.com/mvkrishna2001/">Vamsi Krishna Munjuluri</a>, <a href="https://github.com/SanathKumar123/">Sanath Kumar Parimi</a>
 
 This work was done as a final year project under the guidance of Dr. Georg Gutjar.
  
