@@ -1,6 +1,6 @@
 # Comparison of Attention Mechanisms in Machine Learning Models for Vehicle Routing Problems
 
-### This repository contains implementation of <a href="https://arxiv.org/abs/2002.03282">"A Deep Reinforcement Learning Algorithm Using Dynamic Attention Model for Vehicle Routing Problems"</a> article (TensorFlow2). 
+### This repository contains implementation of Comparison of Attention Mechanisms in Machine Learning Models for Vehicle Routing Problems (TensorFlow2). 
 
 ### <a href="https://github.com/mvkrishna2001/">Vamsi Krishna Munjuluri</a>, <a href="https://github.com/alexeypustynnikov">Sanath Kumar Parimi</a>
 
@@ -26,4 +26,4 @@ This work was done as a final project.
   1) Open  **train_model.ipynb** and choose training parameters and choose the required number of heads by editing the file name at 'from attention_dynamic_model' .
   2) All outputs would be saved in current directory.
 
-Majority of this code has been fetched from publicly available <a href="https://github.com/d-eremeev/ADM-VRP/"></a> 
+Majority of this code has been fetched from publicly available <a href="https://github.com/d-eremeev/ADM-VRP/"> Code </a> 
