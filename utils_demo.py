@@ -10,7 +10,7 @@ def f_get_results_plot_seaborn(data, title, graph_size=20):
     ax = fig.add_subplot()
     ax.plot(data['epochs'], data['train_loss'], color='salmon', label='train loss')
     ax2 = ax.twinx()
-    ax2.plot(data['epochs'], data['train_cost'],  color='cornflowerblue', label='train cost')
+    ax2.plot(data['epochs'], data['train_cost'], color='cornflowerblue', label='train cost')
     ax2.plot(data['epochs'], data['val_cost'], color='darkblue', label='val cost')
 
     if graph_size == 20:
@@ -20,16 +20,17 @@ def f_get_results_plot_seaborn(data, title, graph_size=20):
 
     plt.axhline(y=am_val, color='black', linestyle='--', linewidth=1.5, label='AM article best score')
 
-    fig.legend(loc="upper right", bbox_to_anchor=(1,1), bbox_transform=ax.transAxes)
-    
+    fig.legend(loc="upper right", bbox_to_anchor=(1, 1), bbox_transform=ax.transAxes)
+
     ax.set_ylabel('Loss')
     ax2.set_ylabel('Cost')
     ax.set_xlabel('Epochs')
     ax.grid(False)
     ax2.grid(False)
-    ax2.set_yticks(np.arange(min(data['val_cost'].min(), data['train_cost'].min())-0.2,
-                             max(data['val_cost'].max(), data['train_cost'].max())+0.1,
-                             0.1).round(2))
+    ax2.set_yticks(np.arange(min(data['val_cost'].min(), data['train_cost'].min()) - 0.2,
+                             max(data['val_cost'].max(), data['train_cost'].max()) + 0.1,
+                             # 0.1).round(2))
+                             1).round(2))
     plt.title('Learning Curve: ' + title)
     plt.show()
 
@@ -68,6 +69,7 @@ def f_get_results_plot_plotly(data, title, graph_size=20):
 
     # Set y-axes titles
     fig.update_yaxes(title_text="<b>Loss", secondary_y=False, showgrid=False, zeroline=False)
-    fig.update_yaxes(title_text="<b>Cost", secondary_y=True, dtick=0.1)#, nticks=20)
+    # fig.update_yaxes(title_text="<b>Cost", secondary_y=True, dtick=0.1)#, nticks=20)
+    fig.update_yaxes(title_text="<b>Cost", secondary_y=True, dtick=1)  # , nticks=20)
 
     fig.show()
