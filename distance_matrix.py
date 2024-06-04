@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # 假设20个点的坐标，每一行表示一个点的横坐标和纵坐标
 points = np.array([[0.36247087, 0.7458513 ],
@@ -22,6 +23,28 @@ points = np.array([[0.36247087, 0.7458513 ],
  [0.75009143, 0.13691413],
  [0.25756907, 0.61939895],
  [0.4334824,  0.8900689 ]])
+
+#绘制坐标图
+# Adding an additional red point to the scatter plot
+additional_point = [0.9, 0.8]
+
+plt.figure(figsize=(10, 6))
+
+# Plot the original points
+for i, point in enumerate(points):
+    plt.scatter(point[0], point[1], c='b', marker='o')  # Blue color, circular marker
+    plt.text(point[0] + 0.02, point[1] + 0.02, f'R{i+1}', fontsize=9, ha='right')
+
+# Plot the additional point
+plt.scatter(additional_point[0], additional_point[1], c='r', marker='o')  # Red color, circular marker
+plt.text(additional_point[0] + 0.02, additional_point[1] + 0.02, 'Supplier', fontsize=9, ha='right')
+
+plt.title('')
+plt.xlabel('X 轴坐标')
+plt.ylabel('Y 轴坐标')
+plt.grid(True)
+plt.show()
+
 
 # 计算距离矩阵
 distance_matrix = np.linalg.norm(points[:, np.newaxis, :] - points[np.newaxis, :, :], axis=-1)
